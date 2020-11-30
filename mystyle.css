@@ -1,195 +1,62 @@
-.bg-nvidialogo {
-	margin: 0 0 0 120px;
-}
-.rubrik {
-	padding-left: 600px;
-	font-family: 'Cairo';
-}
-.nvidiabar {
-
-	height: 90px;
-	background: black;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-.bg-nvidia a {
-	width: 55px;
-    height: 10px;
-    background: black;
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    font-size: 16px;
-    margin: 25px 0 0 120px;
-	float: left;
-	font-family: 'Cairo';
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.bg-nvidia ul {
-	list-style: none;
+.wrapper {
+  width: 1100px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-.bg-nvidia li {
-	display: inline;
-}
-.bg-nvidia  li a {
-}
-
-.bg-nvidia li a:hover {
-	background: black;
-	color: red;
-}
-
-#nvidiamenu {
-	height: 500px;
-	position: relative;
+#top_header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: #26ABF5;
+  height: 70px;
+  vertical-align: middle;
 }
 
-.bg-green a {
-	background: black;
-	color: white;
-	width: 140px;
-	height: 25px;
-	padding: 10px 10px 10px 10px;
-	text-align: center;
-	position: absolute;
- bottom: 0px;
-  left: 500px;
-	overflow: auto;
-	text-transform: uppercase;
-	font-family: 'Average Sans';
-	text-decoration: none;
+#logo_top {
+  display: inline-block;
+  float: left;
+  width: 53px;
+  padding-top: 8px;
 }
 
-.bg-green ul {
-	list-style: none;
+#main_nav {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 70px;
+  padding-left: 170px;
 }
 
-.bg-green li {
-	display: inline;
-}
-.bg-green  li a {
-}
-
-.bg-green li a:hover {
-	background: gray;
-	color: white;
+#main_nav a {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 6em;
 }
 
-.bold {
-  font-weight:bold;
-}
-
-.nvidiabar-2 {
-	height: 60px;
-	background: #303030;
-    color: grey;
-}
-
-.bg-nvidia-2 a {
-	width: 15px;
-    height: 10px;
-    background: #303030;
-    color: grey;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    font-size: 16px;
-    margin: 17px 100px 0 30px;
-	float: right;
-	font-family: 'Cairo';
-}
-
-.bg-nvidia-2 ul {
-	list-style: none;
-}
-
-.bg-nvidia-2 li {
-	display: inline;
-}
-.bg-nvidia-2  li a {
-}
-
-.bg-nvidia-2 li a:hover {
-	background:#303030;
-	color: white;
-}
-
-.shop-rubrik {
-	color: white;
-	font-size: 30px;
-	float: right;
-	margin: 50px 0 0 40px;
-	position: absolute;
-	text-decoration: none;
-	font-family: 'Archivo Black';
-}
-
-.shop-text {
-	color: white;
-	font-size: 15px;
-	float: right;
-	margin: 50px 0 0 0px;
-	position: absolute;
-	text-decoration: none;
-	font-family: 'Cairo';
-}
-
-.product-box {
-	height: 500px;
-	background: black;
-	border: groove green;
-}
-
-.product-text {
-	font-size: 80px;
-	COLOR: red;
-	text-align: center;
-	margin: 180px 0 0 0;
-	font-family: 'Cairo';
-}
-
-.item-background {
-	background: black;
-	height: 500px;
-}
-
-.item-box {
-	border: groove red;
-	height: 300px;
-	width: 300px;
-	float: right;
-	margin: 80px 10px 0 185px;
-
-}
-
-.product-text-2 {
-	background: black;
-	color: red;
-	font-family: "Cairo";
-	font-size: 30px;
-	float: right;
-	margin: 0 70 0 310;
-}
-{
- box-sizing: border-box;
-}
-
-.row {
- display: flex;
- flex-wrap: wrap;
-}
-
-
-.side {
- flex: 30%;
- background-color: #f1f1f1;
- padding: 20px;
-}
-
-
-.main {
- flex: 70%;
- background-color: white;
- padding: 20px;
+.button {
+  float: right;
+  justify-content: center;
+  display: flex;
+  width: 101px;
+  margin-top: 14px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 2px;
+  background-color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #26abf5;
+  font-size: 13px;
+  font-weight: 600;
 }
